@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HappyCasino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header och navigering -->
+    <header>
+        <div class="container">
+            <h1>HappyCasino</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Hem</a></li>
+                    <li><a href="#games">Spel</a></li>
+                    <li><a href="#promotions">Erbjudanden</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#login" class="login-btn">Logga in</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section id="home" class="banner">
+        <div class="container">
+            <h2>Välkommen till HappyCasino</h2>
+            <p>Upplev spänningen och vinn stort med oss!</p>
+            <a href="#games" class="cta-btn">Spela nu</a>
+        </div>
+    </section>
+
+    <!-- Spelsektion -->
+    <section id="games" class="games">
+        <div class="container">
+            <h2>Våra Spel</h2>
+            <div class="games-grid">
+                <div class="game-item">
+                    <img src="slot1.jpg" alt="Slot Game 1">
+                    <h3>Slot Game 1</h3>
+                </div>
+                <div class="game-item">
+                    <img src="slot2.jpg" alt="Slot Game 2">
+                    <h3>Slot Game 2</h3>
+                </div>
+                <div class="game-item">
+                    <img src="slot3.jpg" alt="Slot Game 3">
+                    <h3>Slot Game 3</h3>
+                </div>
+                <!-- Lägg till fler spel efter behov -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Erbjudandensektion -->
+    <section id="promotions" class="promotions">
+        <div class="container">
+            <h2>Erbjudanden</h2>
+            <p>Missade inte våra senaste bonusar och kampanjer!</p>
+            <!-- Erbjudande detaljer -->
+        </div>
+    </section>
+
+    <!-- Kontaktsektion -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakta oss</h2>
+            <form>
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Meddelande:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Skicka</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Fotnot -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HappyCasino. Alla rättigheter förbehållna.</p>
+            <p><a href="#privacy">Sekretesspolicy</a> | <a href="#terms">Villkor</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

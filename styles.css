@@ -1,0 +1,124 @@
+/* Grundläggande reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-btn {
+    background-color: #ff9900;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+
+.cta-btn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Games */
+.games {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.games-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.game-item {
+    margin: 20px;
+}
+
+.game-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Kontaktformulär */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Fotnot */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
